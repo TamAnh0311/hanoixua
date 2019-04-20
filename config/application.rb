@@ -12,6 +12,10 @@ module Hanoixua
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
     config.assets.compile = true
+    config.assets.precompile += %w( homepage.css )
+    config.assets.precompile += %w( micropost.css )
+    config.assets.precompile += %w( sessions.css )
+    config.assets.precompile += %w( users.css )
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
