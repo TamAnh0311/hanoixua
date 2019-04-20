@@ -1,0 +1,184 @@
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -wekit-box-sizing: border-box;
+  box-sizing:border-box;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
+}
+
+/*All User*/
+#userAll {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  resize: both;
+  overflow: auto;
+  font-family: "Serif";
+  font-size: 2em;
+  h1 {
+    padding-top: 10px;
+    font-family: "Serif";
+    font-style: bold;
+    font-size: 2.5em;
+    color: black;
+
+  }
+}
+#userAll table  {
+   margin-left: 200px;
+}
+
+#userAll table th {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#userAll table tbody tr td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  font-family: "Serif";
+  font-size: 1em;
+}
+
+.btnAdd {
+  position:relative;
+  top:50%;
+  left:45%;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  font-size: 1em;
+}
+
+.pagination {
+  padding-left: 215px;
+}
+
+/*Add User*/
+
+#userAdd {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  resize: both;
+  overflow: auto;
+  font-family: "Serif";
+  font-size: 2em;
+  h1 {
+    padding-top: 10px;
+    font-family: "Serif";
+    font-style: bold;
+    font-size: 2.5em;
+    color: black;
+  }
+}
+
+#userAdd table  {
+   margin-left: 100px;
+}
+
+#userAdd table th {
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+#userAdd table tbody tr td {
+  padding-bottom: 10px;
+  font-family: "Serif";
+  font-size: 1em;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+.btnAddNew {
+  position:relative;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  font-size: 1em;
+}
+
+
+/*show User*/
+
+#userShow {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  resize: both;
+  overflow: auto;
+  h2{
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: left;
+    font-size: 2em;
+    color: black;
+  }
+}
+
+#userEdit h1 {
+  font-family: "Serif";
+}
+
+#userShow p strong  {
+  margin-right: 25%;
+  margin-left: 25%;
+  font-family: "Serif";
+  font-size: 2em;
+}
+
+#userShow a  {
+  position:relative;
+  top:50%;
+  left:45%;
+  font-family: "Serif";
+  font-size: 2em;
+}
+
+#user_password_confirmation {
+  font-size: .9em;
+}
+
+/*edit*/
+
+#userEdit {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  resize: both;
+  overflow: auto;
+  h2{
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: left;
+    font-size: 2em;
+    color: black;
+  }
+}
+.btnSave {
+  position:relative;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  font-size: 1em;
+}

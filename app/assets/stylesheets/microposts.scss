@@ -1,0 +1,110 @@
+
+#blog {
+  margin-top: 0;
+  background-color: #f5f5ef;
+
+  h1 {
+    font-family: font2;
+    font-size: 7em;
+  }
+  h2 {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: font2;
+    font-size: 3.5em;
+    color: black;
+  }
+  hr {
+    border-color: #b3b3b3;
+  }
+}
+
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+  .timestamp {
+    color: #f2f2f2;
+    display: block;
+    margin-left: 60px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.picture {
+  margin-top: 10px;
+  input {
+    border: 0;
+  }
+}
+
+.postRow,
+.postRow > .postColumn {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.postColumn {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.postRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.postContent {
+  border: 1px solid;
+  border-color: #b3b3b3;
+  background-color: white;
+  padding: 10px;
+  a{
+    font-size: 2em;
+    font-style: bold;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .postColumn {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .postColumn {
+    width: 100%;
+  }
+}

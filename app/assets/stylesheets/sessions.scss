@@ -1,0 +1,32 @@
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -wekit-box-sizing: border-box;
+  box-sizing:border-box;
+}
+#login {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+  resize: both;
+  overflow: auto;
+  font-family: "Serif";
+  font-size: 1.5em;
+  h1{
+    font-size: 3em;
+  }
+}
+
+.col-md-offset-3{
+  margin-right: 25%;
+}
+
+.btnLogin {
+  position:relative;
+  background-color: #cccccc;
+  border-color: #cccccc;
+  font-size: 1em;
+}
