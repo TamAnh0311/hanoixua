@@ -15,6 +15,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "jquery-rails"
 gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
+gem 'aws-sdk', '~> 2'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3.6'
@@ -23,6 +24,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'rails_12factor'
 end
 
 group :development do
